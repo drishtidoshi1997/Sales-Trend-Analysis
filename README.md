@@ -1,6 +1,8 @@
 # Sales-Trend-Analysis:
 A comprehensive business intelligence solution analyzing retail sales performance across the United States
 
+![img55](https://github.com/user-attachments/assets/bb5859a7-b418-4e74-899f-d4dbb8c8d3ef)
+
 🎯 Project Overview
 This project delivers actionable insights into Adidas sales performance across multiple retail channels, helping stakeholders make data-driven decisions on inventory management, regional expansion, and seasonal planning strategies.
 Business Questions Addressed:
