@@ -1,4 +1,4 @@
-# Sales-Trend-Analysis:
+# Sales_Trend_Analysis:
 A comprehensive business intelligence solution analyzing retail sales performance across the United States
 
 ![img55](https://github.com/user-attachments/assets/bb5859a7-b418-4e74-899f-d4dbb8c8d3ef)
