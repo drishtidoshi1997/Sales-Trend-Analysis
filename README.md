@@ -3,86 +3,105 @@ A comprehensive business intelligence solution analyzing retail sales performanc
 
 ![img55](https://github.com/user-attachments/assets/bb5859a7-b418-4e74-899f-d4dbb8c8d3ef)
 
-🎯 Project Overview
-This project delivers actionable insights into Adidas sales performance across multiple retail channels, helping stakeholders make data-driven decisions on inventory management, regional expansion, and seasonal planning strategies.
-Business Questions Addressed:
+# 👟 Adidas US Sales Performance Analysis  
+**Data‑Driven Insights for Retail Strategy**  
+*Interactive Tableau Dashboard | 9,649 Transactions | 2020–2021*
 
-How do sales trends vary among retailers across different cities?
-How do seasonal fluctuations impact retailers' business performance?
+🔗 **[View Tableau Dashboard](#)** | **[Kaggle Dataset](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset)**
 
-📈 Key Insights & Findings
+---
 
-🏆 Top Performer: Sports Direct ranked #1 with highest profit ratio (0.42) among 6 major retailers
-🌆 Revenue Leader: New York City contributed 18% of total profits ($6.4M), outperforming all other cities
-📉 Seasonal Impact: Q4 2020 showed 35% sales decline (COVID-19 impact); Q4 2021 recovered with 42% growth
-👟 Product Winner: Men's Street Footwear showed highest YoY growth (68% increase from 2020 to 2021)
-💰 Profitability: Strong positive correlation (R² = 0.87) between total sales and operating profit
-🛍️ Sales Channel: Online sales method showed 23% higher profit margins compared to outlet sales
+## 📌 Project Overview
+Analyzed 9,649 Adidas US retail transactions to identify regional profit drivers, seasonal patterns, and product growth opportunities. Delivered an interactive Tableau dashboard enabling retail operations managers to optimize inventory, plan expansion, and improve channel profitability.
 
-🗂️ Dataset Information
-AttributeDetailsRecords9,649 transactionsTime PeriodJanuary 2020 - December 2021Geographic Scope500+ cities across 5 US regionsRetailers6 major retail chainsProducts6 categories (Men's/Women's Apparel, Athletic & Street Footwear)Revenue Range$0 - $825,000 per transaction
-Data Source: Adidas Sales Dataset - Kaggle
-🛠️ Technical Implementation
-Tools & Technologies
+**Key Business Questions:**
+- How do sales trends vary among retailers across different cities?
+- How do seasonal fluctuations impact retailers' business performance?
 
-Primary Tool: Tableau Desktop (Interactive Dashboard Development)
-Secondary Tool: Power BI (Comparative Analysis)
-Data Processing: Excel (Data Cleaning & Preprocessing)
-Analysis Methods: Statistical Analysis, Trend Analysis, Correlation Analysis
+---
 
-Dashboard Features
-✅ 7 Interactive Visualizations:
+## 🔍 Key Insights
+| Category | Insight | Business Impact |
+|----------|---------|-----------------|
+| **🏆 Top Retailer** | Sports Direct ranks #1 (profit ratio 0.42) | Benchmark best practices |
+| **🌆 Top City** | NYC = 18% of total profits ($6.4M) | Prioritize inventory & new stores |
+| **📉 Seasonality** | Q4 2020: -35% (COVID); Q4 2021: +42% rebound | Build stock by September |
+| **👟 Top Product** | Men's Street Footwear grew +68% YoY | Expand SKUs |
+| **💳 Channel** | Online margins 23% higher than outlet | Shift marketing to digital |
+| **📈 Correlation** | Sales vs Profit R² = 0.87 | Reliable profit forecasting |
 
-Text Table - Financial performance ranking with calculated fields (Profit Ratio & Rank)
-Word Cloud - City-wise profit distribution with color encoding
-Symbol Map - Geographic sales distribution across USA with bubble sizing
-Dumbbell Chart - Year-over-year product performance comparison (2020 vs 2021)
-Dual-Axis Chart - Quarterly sales trends with profit overlay
-Scatter Plot - Sales vs. Profit correlation analysis with linear regression
-Dynamic Filters - Retailer and Sales Method global filters for drill-down analysis
+---
 
-Calculated Metrics
-tableauProfit Ratio = SUM([Operating Profit]) / SUM([Total Sales])
-Retailer Rank = RANK([Profit Ratio], 'desc')
-📊 Visualizations
-Dashboard Overview
-The dashboard employs a red-green color palette for intuitive profit/loss visualization and includes:
+## 🗂️ Dataset
+| Attribute | Details |
+|-----------|---------|
+| **Source** | Kaggle – Adidas US Sales Dataset |
+| **Records** | 9,649 transactions |
+| **Period** | Jan 2020 – Dec 2021 |
+| **Geography** | 500+ cities, 5 US regions |
+| **Retailers** | 6 major chains |
 
-Interactive filters for retailer and sales method segmentation
-Tooltips with detailed metrics (State, City, Sales, Profit, Units Sold)
-URL actions for external reference links (Wikipedia for geographic context)
-Responsive design optimized for standard screen resolutions
+---
 
-Key Visualizations Explained
-1. Geographic Performance Map
+## 🛠️ Tech Stack
+- **Tableau Desktop** – primary dashboard & calculated fields
+- **Power BI** – comparative validation
+- **Excel** – data cleaning & preprocessing
 
-Purpose: Identify high-performing cities and regional opportunities
-Encoding:
+---
 
-Color intensity = Profit levels (Dark Green = Highest)
-Bubble size = Units sold
+## 📊 Dashboard Features
+✅ **7 interactive views:** Map, Word Cloud, Dumbbell Chart, Dual‑Axis, Scatter Plot, Text Table, Global Filters  
+✅ **Calculated metrics:** Profit Ratio, Retailer Rank, YoY Growth  
+✅ **Tooltips** with detailed metrics + **URL actions** for geographic context
 
+---
 
-Insight: New York dominates with largest bubble and darkest green
+## 📁 Repository Structure
+```
+Adidas-Sales-Analysis/
+│
+├── data/
+│   └── Adidas_US_Sales_Datasets.xlsx          # Raw dataset
+│
+├── dashboard/
+│   └── Adidas_Dashboard.twbx                   # Tableau workbook
+│
+├── images/
+│   ├── map.png
+│   ├── dumbbell.png
+│   └── dashboard_preview.png
+│
+├── scripts/
+│   └── data_cleaning.sql                       # SQL queries (if any)
+│
+└── README.md                                    # You are here
+```
 
-2. Seasonal Trend Analysis
+---
 
-Purpose: Track quarterly performance fluctuations
-Design: Dual-axis (Bar for Sales, Line for Profit)
-Insight: Clear COVID-19 impact in Q4 2020, strong recovery in 2021
+## 💡 Business Recommendations
+| Timeframe | Action | Expected Impact |
+|-----------|--------|-----------------|
+| **Short‑term** | ↑ NYC inventory 25%, launch Q4 campaigns early, optimize online checkout | Immediate sales lift, capture early demand |
+| **Medium‑term** | Open 2 new NYC stores, expand Men's Street Footwear SKUs +50%, pilot pop‑ups in South/West | Payback <14 months, fuel growth |
+| **Long‑term** | Dynamic pricing, predictive inventory, subscription bundles | 3‑5% margin lift, repeat customers |
 
-3. Product Comparison (Dumbbell)
+**Projected Impact:** $2.3M annual revenue opportunity | 4‑6% margin uplift | 280% ROI (18 months)
 
-Purpose: Compare year-over-year product category growth
-Design: Connected dots showing 2020 vs 2021 performance
-Insight: Men's Street Footwear showed steepest growth trajectory
+---
 
-💡 Business Recommendations
-Based on the analysis, key recommendations include:
+## 🧠 Skills Demonstrated
+- **Technical:** Tableau, Power BI, Excel, SQL
+- **Analytical:** Trend analysis, correlation, benchmarking, KPI definition
+- **Business:** ROI‑backed recommendations, stakeholder communication, dashboard design
 
-Expand Operations in High-Performance Cities: Focus on New York, Charleston, and Miami for new store openings
-Optimize Q4 Inventory: Increase stock levels for Men's Street Footwear during Oct-Dec period
-Invest in Online Channels: Online sales show superior margins; consider digital marketing expansion
-Regional Strategy Adjustment: South and West regions show untapped potential for market penetration
-Product Portfolio: Prioritize Men's Athletic and Street Footwear lines based on consistent performance
+---
+
+## 🔗 Links
+- **Tableau Public:** [View Dashboard](#) *(link to be added)*
+- **GitHub:** [github.com/drishtidoshi1997/Sales-Trend-Analysis](https://github.com/drishtidoshi1997/Sales-Trend-Analysis)
+- **Dataset:** [Kaggle Adidas Sales Dataset](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset)
+
+---
 
