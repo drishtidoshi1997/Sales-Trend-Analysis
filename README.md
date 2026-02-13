@@ -7,7 +7,7 @@ A comprehensive business intelligence solution analyzing retail sales performanc
 **Data‑Driven Insights for Retail Strategy**  
 *Interactive Tableau Dashboard | 9,649 Transactions | 2020–2021*
 
-🔗 **[View Tableau Dashboard](#)** | **[Kaggle Dataset](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset)**
+🔗 **[View Tableau Dashboard](https://github.com/drishtidoshi1997/Sales-Trend-Analysis/blob/main/Tableau_Dashboard_Adidas%20(1).twbx)** | **[Kaggle Dataset](https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset)**
 
 ---
 
